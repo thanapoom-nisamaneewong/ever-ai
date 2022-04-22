@@ -1,0 +1,11 @@
+streamlit==0.89
+scikit-learn==0.22.1
+pandas==1.2.1
+numpy==1.16.5
+pythainlp==2.3.0
+matplotlib
+seaborn
+tensorflow-cpu
+Pillow==8.1.2
+requests
+datetime
