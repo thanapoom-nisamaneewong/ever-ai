@@ -6,7 +6,7 @@ from apps import diabetes, hypertension, hyperlipidaemia,healthpredictionapp,dis
 app = MultiApp()
 st.set_page_config(layout="wide")
 st.markdown(""" <style> .font {
-font-size:55px ; font-family: 'Arial'; color: #ffffff; background-image: linear-gradient(darkslategray, teal); text-align:center} 
+font-size:55px ; font-family: 'Arial'; color: #ffffff; background-image: linear-gradient(darkslategray, teal,darkslategray); text-align:center} 
 </style> """, unsafe_allow_html=True)
 st.markdown('<p class="font"><b>EVER AI Products</b></p>', unsafe_allow_html=True)
 
