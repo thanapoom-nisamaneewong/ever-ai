@@ -9,3 +9,6 @@ tensorflow-cpu
 Pillow==8.1.2
 requests
 datetime
+bokeh==2.4.1
+streamlit-bokeh-events==0.1.2
+streamlit-nightly
