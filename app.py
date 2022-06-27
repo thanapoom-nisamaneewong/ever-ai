@@ -11,7 +11,7 @@ font-size:55px ; font-family: 'Arial'; color: #ffffff; background-image: linear-
 st.markdown('<p class="font"><b>EVER AI Products</b></p>', unsafe_allow_html=True)
 
 # Add all your application here
-app.add_app('Health Summary', healthsummary.app)
+app.add_app('Health Dashboard', healthsummary.app)
 app.add_app('Predictive Health', predictivehealthapp.app)
 #app.add_app('Health Prediction', healthpredictionapp.app)
 app.add_app('Diagnosis Prediction based on Clinical Text', diseasepredictionapp.app)
