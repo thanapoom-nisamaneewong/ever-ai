@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 def app():
 
-    st.title('Health Summary')
+    #st.title('Health Summary')
     #st.write('Dashboard :')
     #st.components.v1.html("""<iframe width="1000" height="780" src="https://datastudio.google.com/embed/reporting/32b94f6a-c615-4a54-81ac-f59cfdcca1ec/page/GN3fC" frameborder="0" style="border:0" allowfullscreen></iframe>""",width=1400, height=800,scrolling=True)
     components.iframe("https://ever-ai-healthdashboard.herokuapp.com",width=1050, height=500, scrolling=True)
